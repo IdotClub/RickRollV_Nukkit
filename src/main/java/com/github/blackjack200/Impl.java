@@ -1,11 +1,13 @@
 package com.github.blackjack200;
 
+import cn.hutool.core.io.FileUtil;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Impl {
-	private static final String video = "https://www.bilibili.com/video/BV1GJ411x7h7";
+	private static final String video = "https://www.bilibili.com/video/BV1uT4y1P7CX";
 
 	public static void main(String[] args) {
 		invoke();
